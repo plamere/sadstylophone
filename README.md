@@ -1,5 +1,10 @@
 # Sad Stylophone
 
+Every song can be made sadder and more pathetic with the Saddest Stylophone.
+
+The Saddest Stylophone</b> accompanies your favorite songs with the wonderful sound of
+the Stylophone.  
+
 [Sad Stylophone](http://static.echonest.com/stylophone/index.html "") is a web app that 
 
 This is a music hack created at #wowhack2</a> by Paul Lamere. It is powered by The Echo Nest.
