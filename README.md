@@ -2,14 +2,9 @@
 
 Every song can be made sadder and more pathetic with the Saddest Stylophone.
 
-The Saddest Stylophone</b> accompanies your favorite songs with the wonderful sound of
-the Stylophone.  
+The Saddest Stylophone accompanies your favorite songs with the wonderful sound of
+the Stylophone.  Try out the [Sad Stylophone](http://static.echonest.com/stylophone/index.html "")
 
-[Sad Stylophone](http://static.echonest.com/stylophone/index.html "") is a web app that 
-
-This is a music hack created at #wowhack2</a> by Paul Lamere. It is powered by The Echo Nest.
-
-The Saddest Stylophone will create a sad and pathetic version of any song.
 
 <img src='http://static.echonest.com/stylophone/images/stylophone1_800w.jpg'>
 
@@ -44,3 +39,5 @@ It uses The Echo Nest API to analyze a track and break it down into
 bars, beats, tatums, and then uses this data to create an interactive
 visualization of the song. You can then interact with the song in
 all sorts of various ways.
+
+This is a music hack created at #wowhack2</a> by Paul Lamere. It is powered by The Echo Nest.

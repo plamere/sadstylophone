@@ -86,7 +86,7 @@ function renderViz(div, type, which, playCallback, vizCallback, stateCallback) {
     var widgets = {};
 
     function playNow(q) {
-        player.playNow(q);
+        player.play(0, q);
         if (playCallback) {
             playCallback(q);
         }
@@ -508,9 +508,9 @@ function renderViz(div, type, which, playCallback, vizCallback, stateCallback) {
                 if (isPlaying) {
                     curQ = curQ.next;
                     if (curQ) {
+                        setTimeout(playNext, curQ.duration * 1000);
                         updateViz(curQ);
                         playNow(curQ);
-                        setTimeout(playNext, curQ.duration * 1000);
                     }
                 }
             }

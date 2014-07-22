@@ -527,7 +527,7 @@ function stateCallback(playState) {
 function trackReady(t) {
     t.fixedTitle = getTitle(t.title, t.artist, t.info.url);
     $("#loud").text(t.audio_summary.loudness);
-    document.title = 'The Saddest Stylophone plays' + t.fixedTitle;
+    document.title = 'The Saddest Stylophone plays ' + t.fixedTitle;
     // $("#song-title").text(t.fixedTitle);
     var volume = interp(t.audio_summary.loudness, -12, -6, .4, 1);
     fullAudioVolume = volume;

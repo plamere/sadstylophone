@@ -254,6 +254,7 @@ function createJRemixer(context, jquery) {
                 var duration = q.duration * speedFactor;
                 var next = start + duration;
 
+                console.log(now, q.start, now - q.start);
                 if (speedFactor == 1 && curQ && curQ.track === q.track && curQ.which + 1 == q.which) {
                     // let it ride
                 } else {
@@ -279,8 +280,8 @@ function createJRemixer(context, jquery) {
 
             var player = {
                 play: function(when, q) {
-                    return playQuantum(when, q);
-                    //queuePlay(0, q);
+                    //return playQuantum(when, q);
+                    queuePlay(0, q);
                 },
 
                 playNow: function(q) {
